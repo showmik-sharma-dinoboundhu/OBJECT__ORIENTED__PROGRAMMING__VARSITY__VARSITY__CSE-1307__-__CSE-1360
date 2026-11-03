@@ -28,6 +28,6 @@ int main()
     {
         cout << p->get_i() << endl;
         p++;
-    }
+    } 
     return 0;
 }

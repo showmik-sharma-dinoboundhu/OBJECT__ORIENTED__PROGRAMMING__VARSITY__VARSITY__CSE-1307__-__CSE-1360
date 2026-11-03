@@ -14,6 +14,7 @@ class cl
             return i;
         }
 };
+
 int main()
 {
     cl ob, *p;

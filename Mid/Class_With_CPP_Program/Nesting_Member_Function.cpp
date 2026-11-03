@@ -3,7 +3,7 @@ using namespace std;
 
 class Set
 {
-    int m,n;
+    int m, n;
     public:
         void input();
         void display();

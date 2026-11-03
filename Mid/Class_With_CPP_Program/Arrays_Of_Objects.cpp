@@ -12,7 +12,7 @@ class employee
 
 void employee :: getData()
 {
-    cin >> name >> age ;
+    cin >> name >> age;
 }
 
 void employee :: putData()
