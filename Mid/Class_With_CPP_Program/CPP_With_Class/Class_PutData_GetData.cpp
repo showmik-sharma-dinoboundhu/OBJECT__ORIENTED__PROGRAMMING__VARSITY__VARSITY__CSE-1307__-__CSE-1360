@@ -1,32 +1,30 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class item
+class Student
 {
-    int num;
-    float cost;
+    int id;
+    string name;
+
 
     public:
-        void getData(int a, float b);
-
-        void putData()
+        void setData(int x, string y)
         {
-            cout << "Number :" << num << endl;
-            cout << "Cost :" << cost << endl;
+            id = x;
+            name = y;
+        }
+
+        void getData()
+        {
+            cout << id << " " << name << endl;
         }
 };
 
-void item :: getData(int a, float b)
-{
-    num = a ;
-    cost = b;
-}
-
 int main()
 {
-    item x;
-    cout << "Object X :" << endl;
-    x.getData(100, 299.98);
-    x.putData();
+    Student s;
+    s.setData(20, "showmik");
+    s.getData();
+
     return 0;
 }

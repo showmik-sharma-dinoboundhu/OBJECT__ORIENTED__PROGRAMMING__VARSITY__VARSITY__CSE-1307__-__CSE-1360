@@ -1,31 +1,31 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class even
+class Student
 {
-    int a;
+    int id;
+
     public:
-        even (int m);
-        int check();
+        void setData(int x);
+        void display();
 };
 
-even :: even(int m)
+inline void Student::setData(int x)
 {
-    a = m;
+    id = x;
 }
 
-inline int even :: check()
+inline void Student::display()
 {
-    return (a % 2);
+    cout << "ID: " << id << endl;
 }
 
 int main()
 {
-    even a=10, b=11;
-    if(a.check() == 0)      cout << "Even" << endl;
-    else    cout << "Odd" << endl;
+    Student s1;
 
-    if(b.check() == 0)      cout << "Even" << endl;
-    else    cout << "Odd" << endl;
+    s1.setData(101);
+    s1.display();
+
     return 0;
 }

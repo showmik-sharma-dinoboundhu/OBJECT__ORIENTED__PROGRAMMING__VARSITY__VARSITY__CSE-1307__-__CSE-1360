@@ -4,22 +4,21 @@ using namespace std;
 class box
 {
     public:
-        int l,w,c;
+        int l,w,h;
     
-    void print_volume()
+    void display()
     {
-        int vol;
-        vol = l*w*c;
+        int vol = l*w*h;
         cout << "Volume " << vol << endl;
     }
 };
 
 int main()
 {
-    box vol1, vol2;
+    box vol;
 
-    cin >> vol1.l >> vol1.c >> vol1.w;
+    cin >> vol.l >> vol.h >> vol.w;
 
-    vol1.print_volume();
+    vol.display();
     return 0;
 }
