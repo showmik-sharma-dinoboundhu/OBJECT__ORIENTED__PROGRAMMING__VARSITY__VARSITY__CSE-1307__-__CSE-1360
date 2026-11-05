@@ -19,8 +19,8 @@ class Student
 
 int main()
 {
-    Student s1(101);
-    s1.display();
+    Student s(101);
+    s.display();
 
     return 0;
 }
