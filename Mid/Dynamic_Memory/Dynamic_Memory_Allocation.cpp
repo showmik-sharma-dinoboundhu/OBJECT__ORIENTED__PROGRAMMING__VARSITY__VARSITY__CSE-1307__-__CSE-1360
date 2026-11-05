@@ -7,7 +7,6 @@ int main()
 
     p = new int;
 
-    cout << "Enter a number: ";
     cin >> *p;
 
     cout << "Value: " << *p << endl;
