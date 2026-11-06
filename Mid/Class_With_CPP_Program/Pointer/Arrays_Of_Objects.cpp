@@ -20,7 +20,7 @@ void employee :: putData()
     cout << name << endl << age << endl; 
 }
 
-const int n = 3;
+const int n = 2;
 
 int main()
 {
